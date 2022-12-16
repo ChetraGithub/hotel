@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    font-family: 'Readex Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("log.jpg");
+    background-size: cover;
+    background-position: right;
+    color: white;
+}
+.form-container {
+    width: 90%;
+}
+.form-title {
+    text-align: center;
+}
+.form-title span {
+    font-size: 1.2rem;
+}
+.form-login {
+    border-radius: 15px;
+    padding: 20px 15px;
+    margin-top: 40px;
+    background: rgba(189, 237, 238, 0.672);
+    text-align: center;
+}
+.form-group {
+    padding: 12px;
+    font-size: 1.2rem;
+}
+.form-group input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    font-size: 1rem;
+}
+.connect i {
+    font-size: 2rem;
+    padding: 0px 8px;
+    color: black;
+}
+.form-title span {
+    font-weight: bold;
+}
+#log {
+    font-size: 1.5rem;
+}
+.forgot {
+    border-bottom: 3px solid white;
+    text-align: right;
+}
